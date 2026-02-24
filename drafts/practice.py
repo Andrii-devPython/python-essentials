@@ -7,23 +7,23 @@
 # region
 # Strings
 
-messageOnTg = "Hey mom, thanks for that"
-heardAfterThanks = "You are welcome"
+# messageOnTg = "Hey mom, thanks for that"
+# heardAfterThanks = "You are welcome"
 
 # Integers
 
-sumOfGoals = 5
-yourAge = 21
+# sumOfGoals = 5
+# yourAge = 21
 
 # Floats
 
-priceOfToken = 10.99
-gpa = 3.2
+# priceOfToken = 10.99
+# gpa = 3.2
 
 # Booleans
 
-isStudent = True
-forSale = False
+# isStudent = True
+# forSale = False
 # endregion
 
 
