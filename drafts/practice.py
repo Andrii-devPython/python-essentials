@@ -64,8 +64,17 @@
 
 # Exercise 1 Rectangle Area Calc
 
-length = float(input("Input length: "))
-width = float(input("Input width: "))
-areaCalc = length * width
-print(f"Rectangle Area Calc is: {areaCalc}cm²")
+#length = float(input("Input length: "))
+#width = float(input("Input width: "))
+#areaCalc = length * width
+#print(f"Rectangle Area Calc is: {areaCalc}cm²")
 
+# Exercise 2 Shopping Cart Program
+
+item = input("What item would you like to buy?: ")
+price = float(input("What is the price?: "))
+quantity = int(input("How many would you like?: "))
+total = price * quantity
+
+print(f"You have bought {quantity} x {item}'s")
+print(f"Your total is: ${total}")
