@@ -97,16 +97,23 @@
 
 # Python weight converter
 
-weight = float(input("Enter your weight: "))
-unit = input("Kilograms or Pounds? (K or L?): ")
+#weight = float(input("Enter your weight: "))
+#unit = input("Kilograms or Pounds? (K or L?): ")
 
-if unit == "K":
-    weight = weight / 2.205
-    unit = "Kgs."
-elif unit == "L":
-    weight = weight * 2.205
-    unit = "Lbs."
-else:
-    print(f"{unit} was not valid")
+#if unit == "K":
+#    weight = weight / 2.205
+#    unit = "Kgs."
+#elif unit == "L":
+#    weight = weight * 2.205
+#    unit = "Lbs."
+#else:
+#    print(f"{unit} was not valid")
     
-print (f"Your weight is: {weight} {unit}")
+#print (f"Your weight is: {round(weight, 2)} {unit}")
+
+
+# logical operators = evaluate multiple conditions (or, and, not)
+#               or = at least one condition must be true
+#               and = both conditions must be true
+#               not = inverts the condition (not False, not True)
+
