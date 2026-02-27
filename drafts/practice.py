@@ -1,6 +1,7 @@
 #COMMENT ALL - CMD K - CMD D -- UNC CMD K - CMD U
 #2² control + command + space
 
+
 # Variable = a container for a value (string, float, boolean, integer)
 # A variable behaves as if it was the value it contains
 
@@ -62,6 +63,7 @@
 
 # endregion
 
+
 # Exercise 1 Rectangle Area Calc
 
 #length = float(input("Input length: "))
@@ -81,13 +83,30 @@
 
 # Madlibs game
 
-adjective1 = input("Enter an adjective (description): ")
-noun1 = input("Enter a noun (person, place, thing): ")
-adjective2 = input("Enter an adjective (description): ")
-verb1 = input("Enter a verb ending with 'ing: ")
-adjective3 = input("Enter an adjective (description): ")
+#adjective1 = input("Enter an adjective (description): ")
+#noun1 = input("Enter a noun (person, place, thing): ")
+#adjective2 = input("Enter an adjective (description): ")
+#verb1 = input("Enter a verb ending with 'ing: ")
+#adjective3 = input("Enter an adjective (description): ")
 
-print(f"Today I went to a {adjective1} zoo.")
-print(f"In an exhibit, I saw a {noun1}")
-print(f"{noun1} was {adjective2} and {verb1}")
-print(f"I was {adjective3}!")
+#print(f"Today I went to a {adjective1} zoo.")
+#print(f"In an exhibit, I saw a {noun1}")
+#print(f"{noun1} was {adjective2} and {verb1}")
+#print(f"I was {adjective3}!")
+
+
+# Python weight converter
+
+weight = float(input("Enter your weight: "))
+unit = input("Kilograms or Pounds? (K or L?): ")
+
+if unit == "K":
+    weight = weight / 2.205
+    unit = "Kgs."
+elif unit == "L":
+    weight = weight * 2.205
+    unit = "Lbs."
+else:
+    print(f"{unit} was not valid")
+    
+print (f"Your weight is: {weight} {unit}")
